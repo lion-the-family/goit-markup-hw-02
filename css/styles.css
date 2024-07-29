@@ -2,9 +2,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 ul,
@@ -83,8 +80,7 @@ a {
 }
 .section-btn {
     border-radius: 4px;
-    width: 169px;
-    height: 56px;
+    padding: 16px 32px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
