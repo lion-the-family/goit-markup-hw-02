@@ -17,8 +17,7 @@ a {
 .header {}
 
 .header-nav {}
-
-.logo-web {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -27,17 +26,9 @@ a {
     text-transform: uppercase;
     color: #2e2f42;
 }
-
-.logo-focus {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5; 
+.logo-span {
+    color: #4d5ae5;
 }
-
 .nav-list {}
 
 .nav-list_item {}
@@ -78,7 +69,7 @@ a {
 
 
 /* #region 1 Section */
-.section1 {
+.section-one {
     background-color: #2e2f42;
 }
 .section-name {
@@ -110,7 +101,7 @@ a {
 /* #endregion First Section */
 
 /* #region 2 Section */
-.section {
+.section-second {
 }
 .section-title {
     font-weight: 700;
@@ -141,7 +132,7 @@ a {
 /* #endregion Second Section */
 
 /* #region 3 Section */
-.section3 {
+.section-third {
     background-color: #F4F4FD
 }
 .section-team {
@@ -175,7 +166,7 @@ a {
 /* #endregion 3 Section */
 
 /* #region 4 Section */
-.section {
+.section-fourth {
 }
 .section-portfolio {
     font-weight: 700;
@@ -210,23 +201,18 @@ a {
 .footer {
     background-color: #2e2f42;
 }
-.logo-focuss {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px; 
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-.logo-webb {
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+}
+
+.footer-logo-focus {
+    color: #4d5ae5;
 }
 .footer-desc {
     font-weight: 400;
